@@ -55,30 +55,80 @@ Neste projeto foi aplicado o método CRISP-DM (Cross-Industry Standard Process f
 A divisão dos passos utilizados no projeto foi:
 <ol>
     <li>
-       **Entendimento de negócio:** Entender um pouco mais sobre o modelo de vendas cross-sell e como melhor aplicá-lo no modelo para aumentar o faturamento da empresa e melhorar a experiência dos clientes. Com os resultados em mãos iniciar as ofertas e discutir a possibilidade de mais orçamento para ampliar o número de ligações para cobrir toda a base possivelmente mais interessada no seguro. 
+       <strong>Entendimento de negócio:</strong> Entender um pouco mais sobre o modelo de vendas cross-sell e como melhor aplicá-lo no modelo para aumentar o faturamento da empresa e melhorar a experiência dos clientes. Com os resultados em mãos iniciar as ofertas e discutir a possibilidade de mais orçamento para ampliar o número de ligações para cobrir toda a base possivelmente mais interessada no seguro. 
     </li>
     <li>
-        
+        <strong>Coleta de dados:</strong> Os dados foram coletados de um banco de dados através de uma query  SQL, antes distribuídos em 3 datasets diferentes foram unidos com base no id de cada cliente para iniciar a análise.
     </li>
     <li>
-        
+        <strong>Análise descritiva:</strong> uma breve análise dos dados para adquirir familiaridade com os mesmo, os dados foram divididos em numéricos e categóricos, para aplicar os métodos de análise corretos para cada tipo.
     </li>
     <li>
-        
+        <strong>Dados faltantes:</strong> Não foram encontrados dados faltantes no dataframe.
     </li>
     <li>
-        
+       <strong>Feature engineering:</strong> No primeiro ciclo do projeto foi decidido não criar nenhuma nova variável, apenas algumas das variáveis categóricas tiveram seus valores transformados para melhor performance do algoritmo. Sendo elas: 
+       <ul>
+           <li>
+               gender: Male = 0, Female = 1;
+           </li>
+           <li>
+               vehicle_damage: Yes = 1, No = 0.
+           </li>
+       </ul>
     </li>
     <li>
-        
+       <strong>Filtragem de dados:</strong> Remoção de colunas que não tem impacto no modelo. Remoção de linhas que não contribuem com o modelo. Sendo eles:
+        <ul>
+            <li>
+               Colunas removidas: 'driving_license’; 
+            </li>
+            <li>
+               Linhas removidas: as que na coluna 'driving_license’ tinha resposta negativa (0).
+            </li>
+        </ul>
     </li>
     <li>
-        
+        <strong>Análise exploratória de dados:</strong> Criar e validar hipóteses de negócio para melhor entendimento do comportamento dos dados em relação a variável alvo e como elas se influenciam, e definir quais atributos são importantes para o modelo. Junto com uma análise de correlação entre variáveis aplicado e método correto para que variáveis numéricas e categóricas sejam corretamente comparadas. Sendo elas:
+        <ul>
+            <li>
+               cramer v: categórica vs categórica; 
+            </li>
+            <li>
+               Point-biserial: numérica vs categórica.
+            </li>
+        </ul>
     </li>
     <li>
-        
+        <strong>Preparação dos dados:</strong> Manipular os dados para se adequarem melhor num modelo de machine learning.
+        <ul>
+            <li>
+                Re-escala dos atributos numéricos para não força o modelo a trabalhar com valores muito altos: 
+                <ul>
+                    <li>
+                        MinMaxscaler: ‘age’ e ‘vintage’;
+                    </li>
+                    <li>
+                        StandardScale: ‘annual_premium’.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Encoding das variáveis categóricas:
+                <ul>
+                    <li>
+                        Ordinal encoding:  ‘vehicle_age’. 
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        Ao final as escalas foram salvas no formato pickle para serem aplicadas no dataset de treino.
     </li>
     <li>
+        <strong>Feature selection:</strong> Neste primeiro ciclo do CRISP foi utilizado o algoritmo boruta para definir os atributos que iremos utilizar no treinamento, só que o algoritmo estava apenas retornando uma variável, logo não seria possível montar um modelo com apenas uma variável. Então, foi aplicado o método de feature importance para definir o peso que os atributos tem no modelo.
         
+        ![](https://github.com/lavinomenezes/health_insurance_cross_sell/blob/main/image/feature_importance.png)
+       
+        Após os resultados foi decidido que a variável gênero fosse excluída do treinamento do modelo final. 
     </li>
 </ol>
