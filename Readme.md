@@ -130,6 +130,9 @@ A divisão dos passos utilizados no projeto foi:
 &nbsp;
         
 <img src="image/feature_importance.png"/>
-Após os resultados foi decidido que a variável gênero fosse excluída do treinamento do modelo final. 
+Após os resultados foi decidido que a variável gênero fosse excluída do treinamento do modelo final.
 </li>
+      <li>
+          <strong>Modelos de machine learning:</strong> Nesta etapa foram aplicados seis algoritmos de machine learning para definir qual tinha melhor resultados e se adequava melhor ao comportamento dos dados. Sendo eles: 
+      </li>
 </ol>
