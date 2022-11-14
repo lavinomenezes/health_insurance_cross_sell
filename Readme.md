@@ -163,8 +163,25 @@ Verdadeiro, Clientes com mais de 35 anos apresentam tendência e montante total 
 
 ![](image/insight_2.png)
 
-<h3><strong>Clientes com carros mais novos '<2year' contratam mais seguro</strong></h3>
+<h3><strong>Clientes com carros com menos de 2 anos de uso contratam mais o segundo seguro</strong></h3>
 Falso, proporcionalmente clientes com carros com mais de 2 anos de uso contratam mais o segundo seguro.
     
 ![](image/insight_3.png)
+    
+<i>Todas as hipóteses testadas podem ser vistas no notebook para ver a descrição total, ou um breve resumo em Hipóteses</i>
 
+## Performance do modelo de Machine learning
+
+Métricas de classificação tradicionais, como precisão e recall, em um problema de recomendação podem e são utilizadas para avaliar a performance geral do modelo, mas falham em identificar a relevância da ordem que foi recomendada. Então as métricas até k são utilizadas para avaliar a performance do modelo até k itens de interesse.
+
+Como o modelo foi treinado com dados desbalanceados isso pode afetar as métricas previamente citadas, então para avaliar se o modelo performar bem apesar do desbalanceamento também foi utilizado o “balanced_acurracy_score”.
+
+Em todos os casos o método de Cross-validation foi aplicado para generalizar os resultados de performance evitando que um modelo tenha melhor resultado por coincidência.
+
+Para este projeto as métricas para avaliação foram:
+<ul>
+    <li>Precion_at_k(precision@k);</li>
+    <li>Recall_at_k(recall@k);</li>
+    <li>Balanced_acurracy_score.</li>
+
+</ul>
