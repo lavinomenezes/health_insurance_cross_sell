@@ -185,6 +185,7 @@ Para este projeto as métricas para avaliação foram:
     <li>Balanced_acurracy_score.</li>
 
 </ul>
+
 ## Performance de previsão
 
 
@@ -194,10 +195,10 @@ Para este projeto as métricas para avaliação foram:
 Com o modelo em produção é possível responder às questões de negócio e retornar o retorno financeiro esperado.
 
   <strong>
-Qual a porcentagem de clientes interessados em adquirir um seguro de automóvel, o time de vendas conseguirá contatar fazendo 20.000 ligações?
+<h3>Qual a porcentagem de clientes interessados em adquirir um seguro de automóvel, o time de vendas conseguirá contatar fazendo 20.000 ligações?</h3>
   </strong>
     
-<h3>Com 20000 mil ligações o time de vendas atingiu 51.62% dos clientes interessados em toda base disponível, considerando que ao total se tem 114090 mil de possíveis clientes, 20000 representa apenas 17.53% do total, ou seja, ligando para menos de um quinto da base de dados é possível atingir mais da metade dos possivelmente interessados.</h3>
+Com 20000 mil ligações o time de vendas atingiu 51.62% dos clientes interessados em toda base disponível, considerando que ao total se tem 114090 mil de possíveis clientes, 20000 representa apenas 17.53% do total, ou seja, ligando para menos de um quinto da base de dados é possível atingir mais da metade dos possivelmente interessados.
 
    <strong>
 <h3>E se a capacidade do time de vendas aumentar para 40.000 ligações, qual a porcentagem de clientes interessados em adquirir um seguro de automóvel o time de vendas conseguirá contatar?</h3>
