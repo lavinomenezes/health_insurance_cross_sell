@@ -197,10 +197,10 @@ Com o modelo em produção é possível responder às questões de negócio e re
 Qual a porcentagem de clientes interessados em adquirir um seguro de automóvel, o time de vendas conseguirá contatar fazendo 20.000 ligações?
   </strong>
     
-<h4>Com 20000 mil ligações o time de vendas atingiu 51.62% dos clientes interessados em toda base disponível, considerando que ao total se tem 114090 mil de possíveis clientes, 20000 representa apenas 17.53% do total, ou seja, ligando para menos de um quinto da base de dados é possível atingir mais da metade dos possivelmente interessados.</h4>
+<h3>Com 20000 mil ligações o time de vendas atingiu 51.62% dos clientes interessados em toda base disponível, considerando que ao total se tem 114090 mil de possíveis clientes, 20000 representa apenas 17.53% do total, ou seja, ligando para menos de um quinto da base de dados é possível atingir mais da metade dos possivelmente interessados.</h3>
 
    <strong>
-<h4>E se a capacidade do time de vendas aumentar para 40.000 ligações, qual a porcentagem de clientes interessados em adquirir um seguro de automóvel o time de vendas conseguirá contatar?</h4>
+<h3>E se a capacidade do time de vendas aumentar para 40.000 ligações, qual a porcentagem de clientes interessados em adquirir um seguro de automóvel o time de vendas conseguirá contatar?</h3>
    </strong>
     
 Com 40000 mil ligações o time de vendas atingiu 86.57% dos clientes interessados em toda base disponível, considerando que ao total se tem 114090 mil de possíveis clientes, 40000 representa apenas 35.06% do total, ou seja, ligando pouco mais de um terço da base de dados é possível atingir a grande maioria dos clientes possivelmente interessados.
