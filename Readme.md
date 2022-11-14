@@ -133,6 +133,35 @@ A divisão dos passos utilizados no projeto foi:
 Após os resultados foi decidido que a variável gênero fosse excluída do treinamento do modelo final.
 </li>
       <li>
-          <strong>Modelos de machine learning:</strong> Nesta etapa foram aplicados seis algoritmos de machine learning para definir qual tinha melhor resultados e se adequava melhor ao comportamento dos dados. Sendo eles: 
+          <strong>Modelos de machine learning:</strong> Nesta etapa foram aplicados seis algoritmos de machine learning para definir qual tinha melhor resultados e se adequava melhor ao comportamento dos dados. Sendo eles:
+          <ul>
+              <li>KNeighborsClassifier(KNN)</li>
+              <li>Logistic Regression ;</li>
+              <li>Random Forest classifier;</li>
+              <li>Extra Tree classifier;</li>
+              <li>XGboost classifier.</li>
+          </ul>
+          Ao final o modelo escolhido foi o XGBoost, mais a frente será mostrado o motivo da escolha
       </li>
+      <li>
+          <strong>Fine tuning:</strong> Para isso utilizaremos a optimização baysiana - que é um modelo probabilístico utilizado para encontrar o mínimo erro da função. Essa técnica requer uma quantidade menor de iterações para achar o melhor conjunto de parâmetros, ignorando os valores de parâmetros desnecessários e economizando tempo e poder computacional. A biblioteca hyperopt foi utilizada para realizar essa etapa.  
+      </li>
+    <li>
+        <strong>Deploy:</strong> Nesta última etapa, já tendo aplicado o modelo final no dataset e observado os valores gerados, o modelo foi colocado em produção online na plataforma heroku, utilizando uma API desenvolvida com a biblioteca Flask para que a previsão possa ser acessada pelo aplicativo de planilhas da plataforma google, sendo possível gerar uma previsão do ‘score’ de novos clientes direto na planilha.
+    </li>
 </ol>
+
+## Os Principais insights de negócio
+
+<h3><strong>Clientes com carros já danificados contratam seguro 3x mais</strong></h3>
+Falso, clientes que sofreram algum dano no carro contratam um seguro até 47 vezes mais, superando a expectativa de apenas 3 vezes mais.
+![](https://github.com/lavinomenezes/health_insurance_cross_sell/blob/main/image/%C3%ADndice.png)
+
+<h3><strong>Clientes com mais de 35 anos gastam mais anualmente</strong></h3>
+Verdadeiro, Clientes com mais de 35 anos apresentam tendência e montante total de gastos maiores do que aqueles com menos.
+![](https://github.com/lavinomenezes/health_insurance_cross_sell/blob/main/image/insight_2.png)
+
+<h3><strong>Clientes com carros mais novos '<2year'/ contratam mais seguro</strong></h3>
+Falso, proporcionalmente clientes com carros com mais de 2 anos de uso contratam mais o segundo seguro.
+![](https://github.com/lavinomenezes/health_insurance_cross_sell/blob/main/image/insight_3.png)
+
