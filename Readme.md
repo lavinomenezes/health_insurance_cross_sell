@@ -129,7 +129,7 @@ A divisão dos passos utilizados no projeto foi:
 
 &nbsp;
         
-    <img src="image/feature_importance.png"/>
+<img src="image/feature_importance.png"/>
 Após os resultados foi decidido que a variável gênero fosse excluída do treinamento do modelo final. 
 </li>
 </ol>
