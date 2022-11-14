@@ -155,7 +155,8 @@ Após os resultados foi decidido que a variável gênero fosse excluída do trei
 
 <h3><strong>Clientes com carros já danificados contratam seguro 3x mais</strong></h3>
 Falso, clientes que sofreram algum dano no carro contratam um seguro até 47 vezes mais, superando a expectativa de apenas 3 vezes mais.
-![](https://github.com/lavinomenezes/health_insurance_cross_sell/blob/main/image/%C3%ADndice.png)
+
+![](image/insight_1.png)
 
 <h3><strong>Clientes com mais de 35 anos gastam mais anualmente</strong></h3>
 Verdadeiro, Clientes com mais de 35 anos apresentam tendência e montante total de gastos maiores do que aqueles com menos.
