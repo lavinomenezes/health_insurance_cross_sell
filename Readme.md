@@ -127,7 +127,8 @@ A divisão dos passos utilizados no projeto foi:
     <li>
         <strong>Feature selection:</strong> Neste primeiro ciclo do CRISP foi utilizado o algoritmo boruta para definir os atributos que iremos utilizar no treinamento, só que o algoritmo estava apenas retornando uma variável, logo não seria possível montar um modelo com apenas uma variável. Então, foi aplicado o método de feature importance para definir o peso que os atributos tem no modelo.
 
-        <img title="a title" alt="Alt text" src="https://github.com/lavinomenezes/health_insurance_cross_sell/blob/main/image/feature_importance.png">
+        <img src="image/feature_importance.png" width="128"/>
+        
        
         Após os resultados foi decidido que a variável gênero fosse excluída do treinamento do modelo final. 
     </li>
