@@ -185,3 +185,67 @@ Para este projeto as métricas para avaliação foram:
     <li>Balanced_acurracy_score.</li>
 
 </ul>
+## Performance de previsão
+
+
+
+## Resultados de previsão
+
+Com o modelo em produção é possível responder às questões de negócio e retornar o retorno financeiro esperado.
+    <strong>
+Qual a porcentagem de clientes interessados em adquirir um seguro de automóvel, o time de vendas conseguirá contatar fazendo 20.000 ligações?
+    </strong>
+Com 20000 mil ligações o time de vendas atingiu 51.62% dos clientes interessados em toda base disponível, considerando que ao total se tem 114090 mil de possíveis clientes, 20000 representa apenas 17.53% do total, ou seja, ligando para menos de um quinto da base de dados é possível atingir mais da metade dos possivelmente interessados.
+    <strong>
+E se a capacidade do time de vendas aumentar para 40.000 ligações, qual a porcentagem de clientes interessados em adquirir um seguro de automóvel o time de vendas conseguirá contatar?
+    </strong>
+    <strong>
+Com 40000 mil ligações o time de vendas atingiu 86.57% dos clientes interessados em toda base disponível, considerando que ao total se tem 114090 mil de possíveis clientes, 40000 representa apenas 35.06% do total, ou seja, ligando pouco mais de um terço da base de dados é possível atingir a grande maioria dos clientes possivelmente interessados.
+    </strong>
+Quantas ligações o time de vendas precisa fazer para contatar 80% dos clientes interessados em adquirir um seguro de automóvel?
+Com 35097 mil ligações o time de vendas atingiu 80.0% dos clientes interessados em toda base disponível, considerando que ao total se tem 114090 mil de possíveis clientes, 35097 representa apenas 30.76% do total, ou seja, ligando para menos de um terço da base de dados é possível atingir a grande maioria dos clientes possivelmente interessados.
+    
+## Resultados financeiros
+
+Para simular o retorno do investimento ao se utilizar o modelo, será considerado que o preço do seguro automotivo é igual ao do seguro de saúde.
+
+Em termos monetários, levando em consideração que a média do plano anual é de 366.5 Dólares americanos e realizando a quantidade de ligações propostas inicialmente.
+
+Com o modelo aleatório teríamos um retorno de <strong>U$ 899,391.0</strong>
+Com o modelo criado teríamos um retorno de <strong>U$ 2,648,695.5</strong>
+Como citado anteriormente um aumento de <strong>2,94</strong> vezes.
+
+## Conclusão
+
+Neste projeto, possíveis potenciais clientes foram ordenados de forma que aqueles mais prováveis a contratar um segundo seguro estarão no topo da lista de recomendações. Também foram testados hipóteses para entender melhor o comportamento das variáveis.
+
+O resultado foi entregue ao time de negócios na forma de uma planilha dinâmica que foi incluída uma função que utiliza o modelo criado para calcular os scores de novos clientes para que os resultados possam ser facilmente acessados pelo time de ligações.
+
+
+##  Próximos passos
+
+<ul>
+<li>Iniciar um novo ciclo com balanceamento de dado;</li>
+<li>Testar mais hypotheses;</li>
+<li>Criar novas features</li>
+<li>Testar outros algoritmos de machine learning.</li>
+
+</ul>
+
+## Ferramentas utilizadas
+
+<ul>
+    <li>Jupyter notebook</li>
+    <li>Pycharm communit</li>
+    <li>Git</li>
+    <li>Python</li>
+    <li>Pandas</li>
+    <li>Numpy</li>
+    <li>Sklearn</li>
+    <li>Seaborn</li>
+    <li>XGBoost</li>
+    <li>KNN</li>
+    <li>hyperopt</li>
+    <li>Flask</li>
+    <li>Heroku</li>
+</ul>
