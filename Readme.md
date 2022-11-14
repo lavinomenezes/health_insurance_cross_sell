@@ -219,7 +219,9 @@ Para simular o retorno do investimento ao se utilizar o modelo, será considerad
 Em termos monetários, levando em consideração que a média do plano anual é de 366.5 Dólares americanos e realizando a quantidade de ligações propostas inicialmente.
 
 Com o modelo aleatório teríamos um retorno de <strong>U$ 899,391.0</strong>
+
 Com o modelo criado teríamos um retorno de <strong>U$ 2,648,695.5</strong>
+
 Como citado anteriormente um aumento de <strong>2,94</strong> vezes.
 
 ## Conclusão
