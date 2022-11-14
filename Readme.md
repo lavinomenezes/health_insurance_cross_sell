@@ -160,9 +160,9 @@ Falso, clientes que sofreram algum dano no carro contratam um seguro até 47 vez
 
 <h3><strong>Clientes com mais de 35 anos gastam mais anualmente</strong></h3>
 Verdadeiro, Clientes com mais de 35 anos apresentam tendência e montante total de gastos maiores do que aqueles com menos.
-![](https://github.com/lavinomenezes/health_insurance_cross_sell/blob/main/image/insight_2.png)
+![](image/insight_2.png)
 
-<h3><strong>Clientes com carros mais novos '<2year'/ contratam mais seguro</strong></h3>
+<h3><strong>Clientes com carros mais novos '<2year' contratam mais seguro</strong></h3>
 Falso, proporcionalmente clientes com carros com mais de 2 anos de uso contratam mais o segundo seguro.
-![](https://github.com/lavinomenezes/health_insurance_cross_sell/blob/main/image/insight_3.png)
+![](image/insight_3.png)
 
