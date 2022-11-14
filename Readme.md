@@ -192,16 +192,21 @@ Para este projeto as métricas para avaliação foram:
 ## Resultados de previsão
 
 Com o modelo em produção é possível responder às questões de negócio e retornar o retorno financeiro esperado.
-    <strong>
+
+  <strong>
 Qual a porcentagem de clientes interessados em adquirir um seguro de automóvel, o time de vendas conseguirá contatar fazendo 20.000 ligações?
-    </strong>
+  </strong>
+    
 Com 20000 mil ligações o time de vendas atingiu 51.62% dos clientes interessados em toda base disponível, considerando que ao total se tem 114090 mil de possíveis clientes, 20000 representa apenas 17.53% do total, ou seja, ligando para menos de um quinto da base de dados é possível atingir mais da metade dos possivelmente interessados.
-    <strong>
+
+   <strong>
 E se a capacidade do time de vendas aumentar para 40.000 ligações, qual a porcentagem de clientes interessados em adquirir um seguro de automóvel o time de vendas conseguirá contatar?
     </strong>
-    <strong>
+    
+   <strong>
 Com 40000 mil ligações o time de vendas atingiu 86.57% dos clientes interessados em toda base disponível, considerando que ao total se tem 114090 mil de possíveis clientes, 40000 representa apenas 35.06% do total, ou seja, ligando pouco mais de um terço da base de dados é possível atingir a grande maioria dos clientes possivelmente interessados.
     </strong>
+    
 Quantas ligações o time de vendas precisa fazer para contatar 80% dos clientes interessados em adquirir um seguro de automóvel?
 Com 35097 mil ligações o time de vendas atingiu 80.0% dos clientes interessados em toda base disponível, considerando que ao total se tem 114090 mil de possíveis clientes, 35097 representa apenas 30.76% do total, ou seja, ligando para menos de um terço da base de dados é possível atingir a grande maioria dos clientes possivelmente interessados.
     
