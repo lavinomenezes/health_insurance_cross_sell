@@ -28,7 +28,7 @@ Assim foi solicitado à equipe de dados para construir um modelo que priorizasse
 
 
 
-## Questões do negócio.
+## Questões do negócio
 <ol>
     
 <li>
