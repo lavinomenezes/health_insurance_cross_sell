@@ -12,6 +12,19 @@ Assim foi solicitado à equipe de dados para construir um modelo que priorizasse
 
 
 | **Variable** | **Meaning** |
+|:------------:|-------------|
+| Id  |  Unique ID for the customer |
+| Gender  | Gender of the customer |
+| Age | Age of the custome |
+| Driving_License | 1: Customer does not have DL, 1 : Customer already has DL |
+| Region_Code | Unique code for the region of the customer |
+| Previously_Insured | 1: Customer already has Vehicle Insurance, 0 : Customer doesn't have Vehicle Insurance |
+| Vehicle_Age | Age of the Vehicle |
+| Vehicle_Damage | 1: Customer got his/her vehicle damaged in the past. 0 : Customer didn't get his/her vehicle damaged in the past. |
+| Annual_Premium | The amount customer needs to pay as premium in the year |
+| PolicySalesChannel | Anonymised Code for the channel of outreaching to the customer ie. Different Agents, Over Mail, Over Phone, In Person, etc. |
+| Vintage |  Number of Days, Customer has been associated with the company |
+| Response |  1 : Customer is interested, 0 : Customer is not interested |
 
 
 
@@ -51,6 +64,7 @@ A variável “annual_premium” está cotada em rúpias indianas, ao final nos 
 ## Planejamento de solução
 
 Neste projeto foi aplicado o método CRISP-DM (Cross-Industry Standard Process for Data Mining) adaptado para os processos de ciência de dados que se tornaram CRIS-DS.
+![](image/crisp.png)
 
 A divisão dos passos utilizados no projeto foi:
 <ol>
@@ -190,7 +204,8 @@ Para este projeto as métricas para avaliação foram:
 
 Para avaliar a previsão do modelo é utilizado os gráficos de curva de ganho e lift, eles mostram o ganho que o modelo tem em cima do que seria uma escolha aleatória de clientes, sendo:
 
-Curva de ganho onde o eixo x é a porcentagem geral de clientes do dataset, o eixo y a porcentagem de clientes interessados no dataset. Assim, é possível notar que com 17,53% de clientes do dataset, que representam as 20.000 ligações, o modelo atinge 51% dos possíveis clientes interessados no seguro
+Curva de ganho onde o eixo x é a porcentagem geral de clientes do dataset, o eixo y a porcentagem de clientes interessados no dataset. Assim, é possível notar que com 17,53% de clientes do dataset, que representam as 20.000 ligações, o modelo atinge 51% dos possíveis clientes interessados no seguro.
+
 ![](image/gains.png)
 
 Já a curva de ‘lift’ onde o eixo x é a porcentagem geral de clientes do dataset, o eixo y é a quantidade de vezes que o modelo atingiu mais clientes interessados do que um modelo aleatório, para os mesmo 17,53 % dos clientes o modelo captou 2,94 vezes mais potenciais clientes.
@@ -234,7 +249,7 @@ Como citado anteriormente um aumento de <strong>2,94</strong> vezes.
 
 ## Conclusão
 
-Neste projeto, possíveis potenciais clientes foram ordenados de forma que aqueles mais prováveis a contratar um segundo seguro estarão no topo da lista de recomendações. Também foram testados hipóteses para entender melhor o comportamento das variáveis.
+Neste projeto, possíveis potenciais clientes foram ordenados de forma que aqueles mais prováveis a contratar um segundo seguro estarão no topo da lista de recomendações. Também foram testadas hipóteses para entender melhor o comportamento das variáveis.
 
 O resultado foi entregue ao time de negócios na forma de uma planilha dinâmica que foi incluída uma função que utiliza o modelo criado para calcular os scores de novos clientes para que os resultados possam ser facilmente acessados pelo time de ligações.
 
