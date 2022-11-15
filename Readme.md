@@ -168,7 +168,7 @@ Falso, proporcionalmente clientes com carros com mais de 2 anos de uso contratam
     
 ![](image/insight_3.png)
     
-<i>Todas as hipóteses testadas podem ser vistas no notebook para ver a descrição total, ou um breve resumo em Hipóteses</i>
+<i>Todas as hipóteses testadas podem ser vistas no notebook para ver a descrição total, ou um breve resumo em </i>[<i>Hipóteses</i>](https://github.com/lavinomenezes/health_insurance_cross_sell/blob/main/Hipoteses.md)
 
 ## Performance do modelo de Machine learning
 
