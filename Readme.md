@@ -188,6 +188,14 @@ Para este projeto as métricas para avaliação foram:
 
 ## Performance de previsão
 
+Para avaliar a previsão do modelo é utilizado os gráficos de curva de ganho e lift, eles mostram o ganho que o modelo tem em cima do que seria uma escolha aleatória de clientes, sendo:
+
+Curva de ganho onde o eixo x é a porcentagem geral de clientes do dataset, o eixo y a porcentagem de clientes interessados no dataset. Assim, é possível notar que com 17,53% de clientes do dataset, que representam as 20.000 ligações, o modelo atinge 51% dos possíveis clientes interessados no seguro
+![](image/gains.png)
+
+Já a curva de ‘lift’ onde o eixo x é a porcentagem geral de clientes do dataset, o eixo y é a quantidade de vezes que o modelo atingiu mais clientes interessados do que um modelo aleatório, para os mesmo 17,53 % dos clientes o modelo captou 2,94 vezes mais potenciais clientes.
+
+![](image/lift.png)
 
 
 ## Resultados de previsão
