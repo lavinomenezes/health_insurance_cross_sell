@@ -253,6 +253,7 @@ Neste projeto, possíveis potenciais clientes foram ordenados de forma que aquel
 
 O resultado foi entregue ao time de negócios na forma de uma planilha dinâmica que foi incluída uma função que utiliza o modelo criado para calcular os scores de novos clientes para que os resultados possam ser facilmente acessados pelo time de ligações.
 
+[](image/lv_0_20221115114809.gif)
 
 ##  Próximos passos
 
