@@ -274,7 +274,7 @@ O resultado foi entregue ao time de negócios na forma de uma planilha dinâmica
 <ul>
 <li>Iniciar um novo ciclo com balanceamento de dado;</li>
 <li>Testar mais hypotheses;</li>
-<li>Criar novas features</li>
+<li>Criar novas features;</li>
 <li>Testar outros algoritmos de machine learning.</li>
 
 </ul>
