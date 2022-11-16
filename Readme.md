@@ -199,20 +199,20 @@ Para este projeto as métricas para avaliação foram:
     <li>Balanced_acurracy_score.</li>
 </ul>
 
-| Model name| BALANCED_ACC_CROSS_VALL | STD(+/-) |   K   | PRECISION@K_CROSS_VAL | STD(+/-) | RECALL@K_CROSS_VAL | RECALL@K_STD |
-|:---------:|:-----------------------:|:--------:|:-----:|:---------------------:|:--------:|:------------------:|:------------:|
-| XGBoost Cross_Val        | 0.5019   | 0.0002   | 20000 | 0.3359                |  0.0006  | 0.7198             | 0.0          |
-| Random forrest Cross_Val | 0.5474   | 0.0012   | 20000 | 0.3098                |  0.00091 | 0.6638             | 0.0          |
-| Linear model Cross_Val   | 0.5004   | 0.0006   | 20000 | 0.3093                |  0.00134 | 0.6627             | 0.0          |
-| Extra trees Cross_Val    | 0.5529   | 0.0017   | 20000 | 0.3030                |  0.00179 | 0.6494             | 0.0          |
-| KNN Cross_Val            | 0.5668   | 0.0022   | 20000 | 0.2855                |  0.00117 | 0.6118             | 0.0          |
+| Model name| BALANCED_ACC_CROSS_VALL | STD(+/-) |   K   | PRECISION@K_CROSS_VAL | STD(+/-) | RECALL@K_CROSS_VAL |  STD(+/-) |
+|:---------:|:-----------------------:|:--------:|:-----:|:---------------------:|:--------:|:------------------:|:---------:|
+| XGBoost Cross_Val        | 0.5019   | 0.0002   | 20000 | 0.3359                |  0.0006  | 0.7198             | 0.0       |
+| Random forrest Cross_Val | 0.5474   | 0.0012   | 20000 | 0.3098                |  0.00091 | 0.6638             | 0.0       |
+| Linear model Cross_Val   | 0.5004   | 0.0006   | 20000 | 0.3093                |  0.00134 | 0.6627             | 0.0       |
+| Extra trees Cross_Val    | 0.5529   | 0.0017   | 20000 | 0.3030                |  0.00179 | 0.6494             | 0.0       |
+| KNN Cross_Val            | 0.5668   | 0.0022   | 20000 | 0.2855                |  0.00117 | 0.6118             | 0.0       |
 
 O modelo que obteve melhor resultado foi o XGBoost, apresentando o melhor valor de recall@K, com um bom balanced_accuracy_score, então foi seguido com ele para etapa de fine tuning.
 Na etapa do fine tuning devido ao bom valor de recall@k foi otimizado o valor de balanced_accuracy_score para tentar melhorar os resultados do modelo, só que nesse primeiro ciclo apenas um pequeno incremento foi conseguido durante o fine tuning, novas extratégias serão testados nos próximos ciclos. os valores após o fine tuning foram:
 
-| Model name| BALANCED_ACC_CROSS_VALL | STD(+/-) |   K   | PRECISION@K_CROSS_VAL | STD(+/-) | RECALL@K_CROSS_VAL | RECALL@K_STD |
-|:---------:|:-----------------------:|:--------:|:-----:|:---------------------:|:--------:|:------------------:|:------------:|
-| XGBoost Cross_Val        | 0.5030   | 0.0002   | 20000 | 0.3328                |  0.0007  | 0.7133             | 0.0          |
+| Model name| BALANCED_ACC_CROSS_VALL | STD(+/-) |   K   | PRECISION@K_CROSS_VAL | STD(+/-) | RECALL@K_CROSS_VAL |  STD(+/-) |
+|:---------:|:-----------------------:|:--------:|:-----:|:---------------------:|:--------:|:------------------:|:---------:|
+| XGBoost Cross_Val        | 0.5030   | 0.0002   | 20000 | 0.3328                |  0.0007  | 0.7133             | 0.0       |
 
 ## Performance de previsão
 
