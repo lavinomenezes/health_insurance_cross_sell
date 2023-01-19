@@ -6,7 +6,7 @@ A Insurance all é uma empresa fictícia de seguros de saúde cujo time de produ
 
 Para iniciar a oferta do novo seguro, a equipe de produtos selecionou 114090 mil novos clientes para receber a oferta pelo time de vendas através de ligações telefônicas. Entretanto, a equipe de vendas só tem capacidade para efetuar 20 mil ligações no período da campanha.
 
-Assim foi solicitado à equipe de dados para construir um modelo que priorizasse os clientes que estariam mais interessados em contratar o seguro. Assim, ordenando essa lista de 114090 mil clientes de forma que aqueles com maior chance de contratar o seguro estejam no início dela.
+Assim foi solicitado à equipe de dados para construir um modelo que priorizasse os clientes que estariam mais interessados em contratar o seguro. Deste modo, ordenando essa lista de 114090 mil clientes de forma que aqueles com maior chance de contratar o seguro estejam no início dela.
 
 **Dataset overview**
 
