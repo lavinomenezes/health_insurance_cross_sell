@@ -284,6 +284,7 @@ O resultado foi entregue ao time de negócios na forma de uma planilha dinâmica
 <ul>
     <li>Jupyter notebook</li>
     <li>Pycharm communit</li>
+    <li>Dbeaver</li>
     <li>Git</li>
     <li>Python</li>
     <li>Pandas</li>
@@ -295,4 +296,5 @@ O resultado foi entregue ao time de negócios na forma de uma planilha dinâmica
     <li>hyperopt</li>
     <li>Flask</li>
     <li>Heroku</li>
+    <li>SQlite</li>
 </ul>
